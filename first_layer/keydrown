@@ -1,0 +1,22 @@
+#!/bin/sh
+# /etc/init.d/keydrown
+
+# Carry out specific functions when asked to by the system
+case "$1" in
+  start)
+    echo "Starting KeyDrown "
+    modprobe keydrown
+    echo 1 > /proc/keydrown
+    ;;
+  stop)
+    echo "Stopping KeyDrown"
+    echo 0 > /proc/keydrown
+    rmmod keydrown
+    ;;
+  *)
+    echo "Usage: /etc/init.d/keydrown {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0 

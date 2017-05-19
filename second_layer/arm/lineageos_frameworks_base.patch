@@ -1,0 +1,16 @@
+diff --git a/core/java/android/view/View.java b/core/java/android/view/View.java
+index 5f40ad5..ef00667 100644
+--- a/core/java/android/view/View.java
++++ b/core/java/android/view/View.java
+@@ -10062,6 +10062,11 @@ public class View implements Drawable.Callback, KeyEvent.Callback,
+             // Window is obscured, drop this touch.
+             return false;
+         }
++
++        if (event.getRawX() >= 12345677 && event.getRawX() <= 12345679) {
++          return false;
++        }
++
+         return true;
+     }
+ 

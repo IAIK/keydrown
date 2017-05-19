@@ -1,0 +1,10 @@
+Package: keydrown1
+Version: %VERSION%
+Section: devel
+Priority: optional
+Architecture: amd64
+Depends: 
+Maintainer: KeyDrown <keydrown@no-address.com>
+Description: KeyDrown layer 1
+ The service that starts the core layer of the KeyDrown countermeasure.
+ 

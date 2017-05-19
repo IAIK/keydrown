@@ -1,0 +1,10 @@
+Package: libgtk-keydrown
+Version: %VERSION%
+Section: devel
+Priority: optional
+Architecture: amd64
+Depends: libgtk-3-0, libc6
+Maintainer: KeyDrown <keydrown@no-address.com>
+Description: KeyDrown layer 3
+ The third layer of the KeyDrown countermeasure to protect the GTK UI widgets.
+ 

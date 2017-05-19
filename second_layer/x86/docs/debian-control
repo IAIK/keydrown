@@ -1,0 +1,10 @@
+Package: keydrown2
+Version: %VERSION%
+Section: devel
+Priority: optional
+Architecture: amd64
+Depends: libgtk-3-0, libc6
+Maintainer: KeyDrown <keydrown@no-address.com>
+Description: KeyDrown layer 2
+ The second layer of the KeyDrown countermeasure to protect the shared library libgtk.
+ 
