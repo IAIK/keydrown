@@ -15,6 +15,10 @@ We support the following setups:
 
 **For a quick start on Ubuntu 16.04, see section [Quick Start](#quick-start).**
 
+**For a short video of the rdtsc-attack and how KeyDrown's first layer prevents it, watch the demo video 'demo.mp4'**
+
+[![Watch the demo](https://raw.github.com/keydrown/keydrown/master/demo.png)](https://github.com/keydrown/keydrown/raw/master/demo.mp4)
+
 ## Table of content
 
 * [Prerequisites](#prerequisites)
