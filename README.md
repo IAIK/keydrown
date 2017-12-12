@@ -1,5 +1,7 @@
 # KeyDrown Proof-of-Concept
 
+> This is the Proof-of-Concept Implementation of the NDSS'18 paper "[KeyDrown: Eliminating Software-Based Keystroke Timing Side-Channel Attacks ](https://misc0110.net/web/files/keydrown.pdf)". 
+> See the paper for more details on KeyDrown.
 
 KeyDrown consists of three layers.
 
